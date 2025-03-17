@@ -1,1 +1,1 @@
-autogluon
+autogluon==1.2
