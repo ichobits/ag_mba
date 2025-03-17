@@ -35,7 +35,7 @@ st.sidebar.header("Input Features")
 features = {}
 for feature, default_value in default_values.items():
     features[feature] = st.sidebar.number_input(
-        feature, min_value=-10.0, max_value=10.0, value=default_value, step=0.1
+        feature, min_value=-20.0, max_value=20.0, value=default_value, step=0.1
     )
 
 # 将用户输入转换为 DataFrame 格式
